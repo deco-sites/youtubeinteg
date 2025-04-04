@@ -3,14 +3,22 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
-
-import { type Manifest } from "$fresh/server.ts";
+import * as $CommentManeger from "./islands/CommentManeger.tsx";
+import * as $ThumbEditorForm from "./islands/ThumbEditorForm.tsx";
+import * as $VideoDashboardIsland from "./islands/VideoDashboardIsland.tsx";
+import * as $VideoEditorForm from "./islands/VideoEditorForm.tsx";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_app.tsx": $_app,
   },
-  islands: {},
+  islands: {
+    "./islands/CommentManeger.tsx": $CommentManeger,
+    "./islands/ThumbEditorForm.tsx": $ThumbEditorForm,
+    "./islands/VideoDashboardIsland.tsx": $VideoDashboardIsland,
+    "./islands/VideoEditorForm.tsx": $VideoEditorForm,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 

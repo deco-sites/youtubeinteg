@@ -1,0 +1,13 @@
+{
+  "name": "editVideo",
+  "path": "/youtube/sections/editVideo",
+  "sections": [
+    {
+      "__resolveType": "site/sections/EditarVideo.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
