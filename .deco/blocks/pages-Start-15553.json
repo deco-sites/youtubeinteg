@@ -3,9 +3,6 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Youtube/sections/mySection.tsx"
-    },
-    {
       "__resolveType": "Youtube/sections/login.tsx"
     }
   ],
