@@ -1,3 +1,12 @@
 {
-  "__resolveType": "site/apps/deco/Youtube.ts"
+  "__resolveType": "site/apps/deco/Youtube.ts",
+  "apiConfig": {
+    "clientIdSecret": {
+      "__resolveType": "website/loaders/secret.ts",
+      "name": "CLIENT_ID",
+      "encrypted": "88baf24b43b43e0be3b2f5de479cd964d61902a6f18b536d2518daa86cb82af13b01209e38f969bf87c4851f5d06df0dd866830f815837677d2f35e59c90eabc41b282627ccaa9113144cf5fb3ccfe89"
+    },
+    "redirectUri": "http://localhost:8000/",
+    "scopes": "https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.force-ssl"
+  }
 }
